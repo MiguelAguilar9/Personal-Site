@@ -1,0 +1,373 @@
+/*Hero Section*/
+body {
+    margin: 0;
+}
+
+.hero-section {
+    background-color: #6C5F5B;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    display: flex;
+    color: #F6F1EE;
+    text-align: left;
+    width: 100%;
+}
+
+.sub-hero {
+    align-self: center;
+    margin-left: 100px;
+}
+
+.name {
+    margin: 0;
+    padding: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 7rem;
+    letter-spacing: 7px;
+    padding: 0;
+}
+
+.sub-name {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.name span {
+    color: #ec605b;
+}
+
+.contact-but {
+    background-color: #ec605b;
+    color: #F6F1EE;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.sub-hero p {
+    width: 60vh;
+    font-family: 'Lora', serif;
+    margin-top: 5vh;
+}
+
+.web-development {
+    height: 70vh;
+    margin-left: 300px;
+}
+
+/*About Me Section*/
+.profile_sec {
+    background-image: url(./assets/white_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 160vh;
+    width: 100%;
+}
+
+.hello_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 0;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.selfie {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hello {
+    font-size: 2rem;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    color: #ec605b;
+}
+
+.intro {
+    width: 50%;
+    margin-top: 0;
+}
+
+hr {
+    border: dotted #c4c4c4 5px;
+    margin: 50px;
+    width: 6%;
+    border-bottom: none;
+}
+
+.resume_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.res {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: #ec605b;
+}
+
+.res_line {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.panda_gif {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-me-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-family: 'Lora', serif;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #ec605b;
+    width: 600px;
+}
+
+.my-passion {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.my-love {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.my-insp {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.code {
+    grid-column: 1;
+    grid-row: 2;
+    height: 100px;
+    margin: auto 30px auto auto;
+}
+
+.gym {
+    grid-column: 3;
+    grid-row: 3;
+    height: 100px;
+    margin: auto 30px;
+}
+
+.coffee {
+    grid-column: 1;
+    grid-row: 4;
+    height: 100px;
+    margin: auto 30px auto auto;
+}
+
+/*Footer*/
+.bottom-container {
+   display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #ec605b;
+    padding: 10px;
+}
+
+.footer-link {
+    height: 50px;
+    width: 50px;
+    margin: 20px 40px;
+}
+
+.reserv {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 770px) and (max-width: 1030px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-size: 2rem;
+        text-align: center;
+        height: 70vh;
+        }
+    
+    .sub-hero {
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .contact-but {
+        height: 70px;
+        width: 200px;
+        font-size: 2rem;
+    }
+
+    .web-development {
+        height: 350px;
+        margin: 0;
+    }
+
+    .profile_sec {
+        font-size: 2rem;
+        height: auto;
+    }
+
+    .about-me {
+        height: fit-content;
+        align-self: flex-end;
+    }
+
+}
+
+@media (min-width: 370px) and (max-width: 450px) {
+    body {
+        width: auto;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+        height: 60vh;
+        font-size: 20px;
+        background-color: #444444; 
+        }
+    
+    .name {
+        font-size: 65px;
+    }
+    
+    .sub-name {
+        font-size: 30px;
+    }
+
+    .sub-hero {
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .sub-hero p {
+        width: 40vh;
+        margin-top: 20px;
+    }
+
+    .contact-but {
+        height: 70px;
+        width: 150px;
+        font-size: 1rem;
+        margin: 30px auto;
+    }
+
+    .web-development {
+        display: none;
+    }
+
+    .profile_sec {
+        font-size: 20px;
+        height: auto;
+    }
+
+    .intro {
+        width: 40vh;
+    }
+
+    .res_line {
+        width: 40vh;
+    }
+
+    .about-me {
+        height: fit-content;
+        align-self: center;
+    }
+
+    .about-me-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .about-me-sec p {
+        padding: 0 20px;
+    }
+
+    .code {
+        margin: auto;
+    }
+
+    .gym {
+        margin: auto;
+    }
+
+    .coffee {
+        margin: auto;
+    }
+
+    .footer-link {
+        height: 30px;
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    body {
+        width: auto;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+        height: 80vh;
+        font-size: 20px;
+        background-color: #444444; 
+        }
+    
+    .name {
+        font-size: 45px;
+    }
+}
