@@ -362,12 +362,12 @@ a {
         align-items: center;
         margin: 0;
         text-align: center;
-        height: 80vh;
-        font-size: 20px;
+        height: 85vh;
+        font-size: 15px;
         background-color: #444444; 
         }
     
     .name {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
